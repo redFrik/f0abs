@@ -1,7 +1,7 @@
 abstractions for max/msp/jitter
 ===============================
 
-these are abstractions/plugins to be used with [MaxMSPJitter](http://cycling74.com)
+these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.com)
 
 * **f0.active** - help to turn off processes if inactive in more than x ms
 * **f0.atolf** - ascii to list-of-floats conversion
@@ -9,6 +9,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](http://cycling74.c
 * **f0.bounds** - detect if a xy location is within the bounds of a shape
 * **f0.clock** - slow down metro/line/delay/pipe/clocker/timeline objects
 * **f0.coords_to_rect** - convert x1, y1, x2, y2 to x, y, width, height
+* **f0.data_rec** - record messages
 * **f0.data_seq** - record and playback messages
 * **f0.delay** - fifo delay line for messages
 * **f0.delayf** - fifo delay line for numbers with feedback
@@ -73,7 +74,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](http://cycling74.c
 * **f0.vs** - value+send that remembers what has been sent
 * **f0.wrap~** - wrap values
 
-see also <http://www.fredrikolofsson.com/pages/code-max.html>
+see also <https://fredrikolofsson.com/code/max/>
 
 download&install
 ----------------
