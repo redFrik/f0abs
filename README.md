@@ -45,6 +45,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.list_first_nonzero** - output index of first non-zero item in list
 * **f0.list_num_nonzero** - count number of non-zero items in a list
 * **f0.live** - record and repeat x messages y times
+* **f0.lohi** - +/- range
 * **f0.makenote** - replacement for the standard [makenote] object. this one also handles midi channels
 * **f0.miniseq2** - midi note sequencer with variable playback rate
 * **f0.mouse_move** - this abstraction will move the mouse by a small amount if inactive for more that x seconds
@@ -63,6 +64,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.rotary** - for endless rotary encoders
 * **f0.route_index** - route lists beginning with index
 * **f0.route_pattern** - prepends indexes from a pattern
+* **f0.rrand** - range random
 * **f0.s==** - outputs 1 if two symbols match
 * **f0.sah** - sample and hold messages
 * **f0.sample** - reduce a stream of messages by only letting every x message pass
@@ -86,7 +88,7 @@ version history
 ---------------
 
 -----241112
-* added f0.fallout, f0.gauss
+* added f0.fallout, f0.gauss, f0.rrand, f0.lohi
 
 -----221121
 * added f0.data_rec
