@@ -9,7 +9,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.bounds** - detect if a xy location is within the bounds of a shape
 * **f0.clock** - slow down metro/line/delay/pipe/clocker/timeline objects
 * **f0.coords_to_rect** - convert x1, y1, x2, y2 to x, y, width, height
-* **f0.data_rec** - record messages
+* **f0.data_rec** - record timestamped messages
 * **f0.data_seq** - record and playback messages
 * **f0.delay** - fifo delay line for messages
 * **f0.delayf** - fifo delay line for numbers with feedback
@@ -18,10 +18,12 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.duplicates_in_coll** - remove duplicate data in coll objects
 * **f0.ease** - ease in, ease out
 * **f0.efxgate** - route via effect. also works with jitter
+* **f0.fallout** - probabilistic gate
 * **f0.float_counter** - counter with float direction/rate
 * **f0.flush** - replacement for the standard [flush] object. this one also handles midi channels
 * **f0.fold~** - fold values
 * **f0.folder** - wrapper for the standard [folder] object. easily connects to coll, umenu and msgbox
+* **f0.gauss** - gaussian distribution
 * **f0.hms_to_ms** - converts hours-minutes-seconds to milliseconds
 * **f0.jit_dimchange** - outputs dim if a jitter frame differs from previous
 * **f0.jit_dimchange2** - outputs dim if a jitter frame differs from previous. more efficient version
@@ -82,6 +84,13 @@ download&install
 
 version history
 ---------------
+
+-----241112
+* added f0.fallout, f0.gauss
+
+-----221121
+* added f0.data_rec
+* compressed the png logo
 
 -----130810
 * uploaded to github
