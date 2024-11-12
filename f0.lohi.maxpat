@@ -60,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 81.0, 236.0, 32.0, 18.0 ],
-					"presentation_rect" : [ 83.0, 238.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "high"
 				}
@@ -75,7 +74,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 207.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 82.0, 207.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -90,9 +88,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 84.0, 164.0, 32.0, 20.0 ],
-					"presentation_rect" : [ 84.0, 143.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "- 0."
+					"text" : "+ 0."
 				}
 
 			}
