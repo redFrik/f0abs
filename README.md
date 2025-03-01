@@ -6,6 +6,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.active** - help to turn off processes if inactive in more than x ms
 * **f0.atolf** - ascii to list-of-floats conversion
 * **f0.average_tempo** - gives an average tempo of the last n bangs
+* **f0.beats_to_frames** - Calculate how many [video]frames will fit in x beats.
 * **f0.bounds** - detect if a xy location is within the bounds of a shape
 * **f0.clock** - slow down metro/line/delay/pipe/clocker/timeline objects
 * **f0.coords_to_rect** - convert x1, y1, x2, y2 to x, y, width, height
@@ -23,6 +24,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.flush** - replacement for the standard [flush] object. this one also handles midi channels
 * **f0.fold~** - fold values
 * **f0.folder** - wrapper for the standard [folder] object. easily connects to coll, umenu and msgbox
+* **f0.frames_to_beats** - Calculate how many beats will fit in x [video]frames.
 * **f0.gauss** - gaussian distribution
 * **f0.hms_to_ms** - converts hours-minutes-seconds to milliseconds
 * **f0.jit_dimchange** - outputs dim if a jitter frame differs from previous
@@ -60,6 +62,7 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.r** - receiver that remembers and has a built in gate
 * **f0.rand** - floating-point random
 * **f0.rand2** - floating point random bilinear
+* **f0.ratio** - Keep width/height proportion.
 * **f0.rect_to_coords** - convert x, y, width, height to x1, y1, x2, y2
 * **f0.rotary** - for endless rotary encoders
 * **f0.route_index** - route lists beginning with index
@@ -76,7 +79,6 @@ these are abstractions/plugins to be used with [MaxMSPJitter](https://cycling74.
 * **f0.vmk** - basic computer keyboard -> piano mapping
 * **f0.vr** - value+receive that remembers what has been received
 * **f0.vs** - value+send that remembers what has been sent
-* **f0.wrap~** - wrap values
 
 see also <https://fredrikolofsson.com/code/max/>
 
@@ -86,6 +88,10 @@ download&install
 
 version history
 ---------------
+
+-----250301
+* deleted f0.wrap~
+* added f0.beats_to_frames, f0.frames_to_beats, f0.ratio
 
 -----241112
 * added f0.fallout, f0.gauss, f0.rrand, f0.lohi
